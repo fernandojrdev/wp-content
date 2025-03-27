@@ -588,14 +588,17 @@ h6 {
   top: 0;
   padding: 0;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  background-color: var(--clr-primary);
+  background-color: #fff;
+}
+.navbar .navbar-brand img {
+  max-width: 120px;
 }
 .navbar a {
   text-decoration: none;
-  color: #fff;
+  color: #003E7E;
 }
 .navbar a:hover {
-  color: #fff;
+  color: #003E7E;
 }
 .navbar__wrapper {
   display: flex;
